@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="SSNDBModelStoreContainer" CdmEntityContainer="SSNDBEntities">
+    <EntitySetMapping Name="AreaCode">
+      <EntityTypeMapping TypeName="SSNDBModel.AreaCode">
+        <MappingFragment StoreEntitySet="AreaCode">
+          <ScalarProperty Name="Seq" ColumnName="Seq" />
+          <ScalarProperty Name="Code" ColumnName="Code" />
+          <ScalarProperty Name="Area" ColumnName="Area" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>
